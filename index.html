@@ -2,17 +2,11 @@
 <html>
 
 <head>
-    <!-- Site made with Mobirise Website Builder v5.6.8, https://mobirise.com -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="Mobirise v5.6.8, mobirise.com">
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image:src" content="">
-    <meta property="og:image" content="">
-    <meta name="twitter:title" content="Robotic Generation">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="shortcut icon" href="https://r.mobirisesite.com/214496/assets/images/logo-1.png?v=1O3bIt" type="image/x-icon">
-    <meta name="description" content="">
+    <link rel="shortcut icon" href="icones/logo.png" type="image/x-icon">
+
 
 
     <title>Robotic Generation</title>
@@ -25,8 +19,8 @@
     <link rel="stylesheet" href="https://r.mobirisesite.com/214496/assets/theme/css/style.css">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-    <link rel="preload" as="style" href="https://r.mobirisesite.com/214496/assets/mobirise/css/mbr-additional.css?v=1O3bIt">
-    <link rel="stylesheet" href="https://r.mobirisesite.com/214496/assets/mobirise/css/mbr-additional.css?v=1O3bIt" type="text/css">
+    <link rel="preload" as="style" href="https://r.mobirisesite.com/214496/assets/mobirise/css/mbr-additional.css?v=1O53iC">
+    <link rel="stylesheet" href="https://r.mobirisesite.com/214496/assets/mobirise/css/mbr-additional.css?v=1O53iC" type="text/css">
 
 
 
@@ -35,6 +29,52 @@
     <style>
         .navbar-fixed-top {
             top: auto;
+        }
+        
+        #mobiriseBanner.container-banner {
+            height: 8rem;
+            -webkit-animation: 4s linear animationHeight;
+            -moz-animation: 4s linear animationHeight;
+            -o-animation: 4s linear animationHeight;
+            animation: 4s linear animationHeight;
+        }
+        
+        #mobiriseBanner .banner {
+            min-height: 8rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #fff;
+            padding: 10px;
+            opacity: 1;
+            -webkit-animation: 4s linear animationBanner;
+            -moz-animation: 4s linear animationBanner;
+            -o-animation: 4s linear animationBanner;
+            animation: 4s linear animationBanner;
+            z-index: 1031;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        #mobiriseBanner .banner p {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            animation: none;
+            visibility: visible;
+        }
+        
+        #mobiriseBanner .buy-license {
+            text-decoration: underline;
+        }
+        
+        #mobiriseBanner .banner .btn {
+            margin: 0.3rem 0.5rem;
+            animation: none;
+            visibility: visible;
         }
         
         .navbar.opened {
@@ -153,8 +193,9 @@
 
 <body>
 
-
+    <!--Nav bar-->
     <section data-bs-version="5.1" class="menu menu1 cid-t9gVSVsKVs" once="menu" id="menu1-0">
+
 
         <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
             <div class="container">
@@ -162,8 +203,8 @@
 
                     <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-7" href="#top">Robotic Generation</a></span>
                 </div>
-                <button class="navbar-toggler " type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger-icon">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -174,7 +215,8 @@
                     <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
                         <li class="nav-item"><a class="nav-link link text-white display-4" href="#tinkercad">Tinkercad<br></a></li>
                         <li class="nav-item"><a class="nav-link link text-white display-4" href="#componentes">Componentes</a></li>
-                        <li class="nav-item"><a class="nav-link link text-white display-4" href="#video">Video</a></li>
+                        <li class="nav-item"><a class="nav-link link text-white display-4" href="#video">Video</a>
+                        </li>
                         <li class="nav-item"><a class="nav-link link text-white display-4" href="#participantes">Participantes</a></li>
                     </ul>
 
@@ -183,27 +225,25 @@
             </div>
         </nav>
     </section>
-
+    <!--Tinkercad-->
     <section data-bs-version="5.1" class="slider2 cid-t9gWxzOc2J" id="slider2-1">
+        <div id="tinkercad" class="mbr-section-head">
+            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong>Tinkercad</strong></h4>
+        </div>
 
 
 
-        <div class="container">
-
-            <div id="tinkercad" class="mbr-section-head">
-                <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                    <strong>Tinkercad</strong></h4>
-            </div>
-
+        <div id="tinkercad" class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-8">
-                    <div class="carousel slide" id="t9hqYs1Qhk" data-interval="5000" data-bs-interval="5000">
+                <div class="col-12 col-md-7">
+                    <div class="carousel slide" id="t9Lve5ND1P" data-interval="5000" data-bs-interval="5000">
 
                         <ol class="carousel-indicators">
-                            <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#t9hqYs1Qhk" data-bs-target="#t9hqYs1Qhk"></li>
-                            <li data-slide-to="1" data-bs-slide-to="1" class="" data-target="#t9hqYs1Qhk" data-bs-target="#t9hqYs1Qhk"></li>
-                            <li data-slide-to="2" data-bs-slide-to="2" class="" data-target="#t9hqYs1Qhk" data-bs-target="#t9hqYs1Qhk"></li>
-                            <li data-slide-to="3" data-bs-slide-to="3" class="" data-target="#t9hqYs1Qhk" data-bs-target="#t9hqYs1Qhk"></li>
+                            <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#t9Lve5ND1P" data-bs-target="#t9Lve5ND1P"></li>
+                            <li data-slide-to="1" data-bs-slide-to="1" class="" data-target="#t9Lve5ND1P" data-bs-target="#t9Lve5ND1P"></li>
+                            <li data-slide-to="2" data-bs-slide-to="2" class="" data-target="#t9Lve5ND1P" data-bs-target="#t9Lve5ND1P"></li>
+                            <li data-slide-to="3" data-bs-slide-to="3" class="" data-target="#t9Lve5ND1P" data-bs-target="#t9Lve5ND1P"></li>
 
 
                         </ol>
@@ -212,7 +252,7 @@
 
                             <div class="carousel-item slider-image item active">
                                 <div class="item-wrapper">
-                                    <img class="d-block w-100" src="https://r.mobirisesite.com/214496/assets/images/tinkercard2.png?v=1O3bIt" alt="Mobirise Website Builder" data-slide-to="0" data-bs-slide-to="0">
+                                    <img class="d-block w-100" src="tinkercard/tinkercard1.png" alt="Tinkercad" data-slide-to="0" data-bs-slide-to="0">
                                     <div class="carousel-caption d-none d-md-block">
 
                                         <p class="mbr-section-text mbr-fonts-style display-7"><a href="https://www.tinkercad.com/things/1G4pmDbaZIH?sharecode=8PtDlqnZbxVwj8d3H_ROjV8PwQlIoiiIZFgC37cYP1Y" class="text-black" target="_blank">Tinkercad1</a></p>
@@ -221,7 +261,7 @@
                             </div>
                             <div class="carousel-item slider-image item">
                                 <div class="item-wrapper">
-                                    <img class="d-block w-100" src="https://r.mobirisesite.com/214496/assets/images/tinkercard1.png?v=1O3bIt" alt="Mobirise Website Builder" data-slide-to="1" data-bs-slide-to="1">
+                                    <img class="d-block w-100" src="tinkercard/tinkercard2.png" alt="Tinkercad" data-slide-to="1" data-bs-slide-to="1">
                                     <div class="carousel-caption d-none d-md-block">
 
                                         <p class="mbr-section-text mbr-fonts-style display-7"><a href="https://www.tinkercad.com/things/69M1HhNB7YD?sharecode=41L7_KtTWei4eMpxPw3xLv9m7T2qURMA5a_UmnIWyPk" class="text-black" target="_blank">Tinkercad2</a></p>
@@ -230,7 +270,7 @@
                             </div>
                             <div class="carousel-item slider-image item">
                                 <div class="item-wrapper">
-                                    <img class="d-block w-100" src="https://r.mobirisesite.com/214496/assets/images/tinkercard3.png?v=1O3bIt" alt="Mobirise Website Builder" data-slide-to="2" data-bs-slide-to="2">
+                                    <img class="d-block w-100" src="tinkercard/tinkercard3.png" alt="Tinkercad" data-slide-to="2" data-bs-slide-to="2">
                                     <div class="carousel-caption d-none d-md-block">
 
                                         <p class="mbr-section-text mbr-fonts-style display-7"><a href="https://www.tinkercad.com/things/lgXpLZLUZeo?sharecode=0Ljc-gynMQKDnqQGPbG91zcYe1KVri5uHeJrk_GZ6Zk" class="text-black" target="_blank">Tinkercad3</a></p>
@@ -239,7 +279,7 @@
                             </div>
                             <div class="carousel-item slider-image item">
                                 <div class="item-wrapper">
-                                    <img class="d-block w-100" src="https://r.mobirisesite.com/214496/assets/images/tinkercard4.png?v=1O3bIt" alt="Mobirise Website Builder" data-slide-to="3" data-bs-slide-to="3">
+                                    <img class="d-block w-100" src="tinkercard/tinkercard4.png" alt="Tinkercad" data-slide-to="3" data-bs-slide-to="3">
                                     <div class="carousel-caption d-none d-md-block">
 
                                         <p class="mbr-section-text mbr-fonts-style display-7"><a href="https://www.tinkercad.com/things/hqEcnI5I9OV?sharecode=MgcF1lqVKzQM0-IgHTp9X-cOE3zh5einJnTdSK2bqu4" class="text-black" target="_blank">Tinkercad4</a></p>
@@ -247,11 +287,11 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#t9hqYs1Qhk">
+                        <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#t9Lve5ND1P">
                             <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
                             <span class="sr-only visually-hidden">Previous</span>
                         </a>
-                        <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#t9hqYs1Qhk">
+                        <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#t9Lve5ND1P">
                             <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
                             <span class="sr-only visually-hidden">Next</span>
                         </a>
@@ -259,8 +299,198 @@
                 </div>
             </div>
         </div>
-    </section>
+        <!--Modal-->
+        <div class="d-md-flex justify-content-center  ">
 
+            <div class="p-1">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Tinkercard1">
+        Tinkercard 1
+      </button>
+
+                <div class="modal fade" id="Tinkercard1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content ">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Códigos usado no tinkercard 1</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>// C++ code<br>
+                                    <br> //
+                                    <br> void setup()
+                                    <br> {
+                                    <br> pinMode(13, OUTPUT);
+                                    <br> pinMode(11, OUTPUT);
+                                    <br> pinMode(12, OUTPUT);
+                                    <br> }
+                                    <br>
+                                    <br> void loop()
+                                    <br> {
+                                    <br> digitalWrite(13, HIGH);
+                                    <br> delay(2000); // Wait for 2000 millisecond(s)
+                                    <br> digitalWrite(13, LOW);
+                                    <br> digitalWrite(11, HIGH);
+                                    <br> delay(2000); // Wait for 2000 millisecond(s)
+                                    <br> digitalWrite(11, LOW);
+                                    <br> digitalWrite(12, HIGH);
+                                    <br> delay(2000); // Wait for 2000 millisecond(s)
+                                    <br> digitalWrite(12, LOW);
+                                    <br>} </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn "><a href="https://www.tinkercad.com/things/1G4pmDbaZIH?sharecode=8PtDlqnZbxVwj8d3H_ROjV8PwQlIoiiIZFgC37cYP1Y" target="_blank">Ir para o tinkercard</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-1">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Tinkercard2">
+                Tinkercard 2
+              </button>
+
+                <div class="modal fade" id="Tinkercard2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Códigos usado no tinkercard 2</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>unsigned int sensor;<br>
+                                    <br> int LED = 9;
+                                    <br> void setup()
+                                    <br> {
+                                    <br> Serial.begin(9600);
+                                    <br> pinMode(LED, OUTPUT);
+                                    <br>
+                                    <br> }
+                                    <br>
+                                    <br> void loop()
+                                    <br> {
+                                    <br> sensor = analogRead(A5);
+                                    <br> Serial.println(sensor);
+                                    <br>
+                                    <br> if (sensor > 509){
+                                    <br> digitalWrite(LED, HIGH);
+                                    <br> }
+                                    <br> else {
+                                    <br> digitalWrite(LED, LOW);
+                                    <br> }
+                                    <br>
+                                    <br> }
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn "><a href="https://www.tinkercad.com/things/69M1HhNB7YD?sharecode=41L7_KtTWei4eMpxPw3xLv9m7T2qURMA5a_UmnIWyPk" target="_blank">Ir para o tinkercard</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-1">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Tinkercard3">
+                Tinkercard 3
+              </button>
+
+                <div class="modal fade" id="Tinkercard3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Códigos usado no tinkercard 3</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>int velMotor = 3;<br>
+                                    <br>int motorFrente = 2;
+                                    <br> int motorTras = 4;
+                                    <br> int vel = 255;
+                                    <br> void setup()
+                                    <br> {
+                                    <br> pinMode(3, OUTPUT);
+                                    <br> pinMode(2, OUTPUT);
+                                    <br> pinMode(4, OUTPUT);
+                                    <br> analogWrite(3, 0); digitalWrite(2, LOW); digitalWrite(4, LOW);
+                                    <br> }
+                                    <br> void loop()
+                                    <br> {
+                                    <br> //Sentido anti-horário
+                                    <br> analogWrite(3, vel);
+                                    <br> digitalWrite(2, HIGH);
+                                    <br> digitalWrite(4, LOW);
+                                    <br> delay(5000);
+                                    <br> //Desligando motor para inversão de sentido
+                                    <br> analogWrite(3, 0);
+                                    <br> digitalWrite(2, LOW);
+                                    <br> digitalWrite(4, LOW);
+                                    <br> delay(100);
+                                    <br> //Sentido horário
+                                    <br> analogWrite(3, vel);
+                                    <br> digitalWrite(4, HIGH);
+                                    <br> digitalWrite(2, LOW);
+                                    <br>delay(5000);
+                                    <br> //Desligando motor para inversão de sentido
+                                    <br> analogWrite(3, 0);
+                                    <br> digitalWrite(2, LOW);
+                                    <br>digitalWrite(4, LOW);
+                                    <br> delay(100);
+                                    <br> } </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn "><a href="https://www.tinkercad.com/things/lgXpLZLUZeo?sharecode=0Ljc-gynMQKDnqQGPbG91zcYe1KVri5uHeJrk_GZ6Zk" target="_blank">Ir para o tinkercard</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-1">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Tinkercard4">
+                Tinkercard 4
+              </button>
+
+                <div class="modal fade" id="Tinkercard4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Códigos usado no tinkercard 4</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>ISR(PCINT0_vect){<br>
+                                    <br> PORTD ^= 0b00110000;
+                                    <br> }
+                                    <br> ISR(PCINT2_vect){
+                                    <br> PORTD ^= 0b00001100;
+                                    <br> }
+                                    <br>int main(void)
+                                    <br>{
+                                    <br> DDRD = 0b00111100;
+                                    <br>PORTD = 0b00011000;
+                                    <br>PCICR = 0b00000101;
+                                    <br>PCMSK2 = 0b1000000;
+                                    <br>PCMSK0 = 0b0000001;
+                                    <br>sei();
+                                    <br> while(1){
+                                    <br> }
+                                    <br> } </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn "><a href="https://www.tinkercad.com/things/hqEcnI5I9OV?sharecode=MgcF1lqVKzQM0-IgHTp9X-cOE3zh5einJnTdSK2bqu4" target="_blank">Ir para o tinkercard</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Componentes-->
     <section data-bs-version="5.1" class="slider5 mbr-embla cid-t9gWzXkOfy" id="slider5-2">
 
 
@@ -280,7 +510,7 @@
                             <div class="slide-content">
                                 <div class="item-img">
                                     <div class="item-wrapper">
-                                        <img src="https://r.mobirisesite.com/214496/assets/images/arduino.png?v=1O3bIt" alt="Mobirise Website Builder" title="" data-slide-to="1" data-bs-slide-to="1">
+                                        <img src="componentes/arduino.png" alt="Arduino" title="" data-slide-to="1" data-bs-slide-to="1">
                                     </div>
                                 </div>
                                 <div class="item-content">
@@ -295,7 +525,7 @@
                             <div class="slide-content">
                                 <div class="item-img">
                                     <div class="item-wrapper">
-                                        <img src="https://r.mobirisesite.com/214496/assets/images/bateria9v.png?v=1O3bIt" alt="Mobirise Website Builder" title="" data-slide-to="2" data-bs-slide-to="2">
+                                        <img src="componentes/bateria9v.png" alt="Bateria 9V" title="" data-slide-to="2" data-bs-slide-to="2">
                                     </div>
                                 </div>
                                 <div class="item-content">
@@ -311,7 +541,7 @@
                             <div class="slide-content">
                                 <div class="item-img">
                                     <div class="item-wrapper">
-                                        <img src="https://r.mobirisesite.com/214496/assets/images/fontedeenergia.png?v=1O3bIt" alt="Mobirise Website Builder" title="" data-slide-to="3" data-bs-slide-to="3">
+                                        <img src="componentes/fontedeenergia.png" alt="Fonte de energia" title="" data-slide-to="3" data-bs-slide-to="3">
                                     </div>
                                 </div>
                                 <div class="item-content">
@@ -326,7 +556,7 @@
                             <div class="slide-content">
                                 <div class="item-img">
                                     <div class="item-wrapper">
-                                        <img src="https://r.mobirisesite.com/214496/assets/images/fotorresistor.png?v=1O3bIt" alt="Mobirise Website Builder" title="" data-slide-to="4" data-bs-slide-to="4">
+                                        <img src="componentes/fotorresistor.png" alt="Fotorresistor" title="" data-slide-to="4" data-bs-slide-to="4">
                                     </div>
                                 </div>
                                 <div class="item-content">
@@ -343,7 +573,7 @@
                             <div class="slide-content">
                                 <div class="item-img">
                                     <div class="item-wrapper">
-                                        <img src="https://r.mobirisesite.com/214496/assets/images/interruptordeslizante.png?v=1O3bIt" alt="Mobirise Website Builder" title="" data-slide-to="5" data-bs-slide-to="5">
+                                        <img src="componentes/interruptordeslizante.png" alt="Interruptor deslizante" title="" data-slide-to="5" data-bs-slide-to="5">
                                     </div>
                                 </div>
                                 <div class="item-content">
@@ -358,7 +588,7 @@
                             <div class="slide-content">
                                 <div class="item-img">
                                     <div class="item-wrapper">
-                                        <img src="https://r.mobirisesite.com/214496/assets/images/led.png?v=1O3bIt" alt="Mobirise Website Builder" title="" data-slide-to="6" data-bs-slide-to="6">
+                                        <img src="componentes/led.png" alt="LED" title="" data-slide-to="6" data-bs-slide-to="6">
                                     </div>
                                 </div>
                                 <div class="item-content">
@@ -373,7 +603,7 @@
                             <div class="slide-content">
                                 <div class="item-img">
                                     <div class="item-wrapper">
-                                        <img src="https://r.mobirisesite.com/214496/assets/images/motorcc.png?v=1O3bIt" alt="Mobirise Website Builder" title="" data-slide-to="7" data-bs-slide-to="7">
+                                        <img src="componentes/motorcc.png" alt="Motor CC" title="" data-slide-to="7" data-bs-slide-to="7">
                                     </div>
                                 </div>
                                 <div class="item-content">
@@ -389,7 +619,7 @@
                             <div class="slide-content">
                                 <div class="item-img">
                                     <div class="item-wrapper">
-                                        <img src="https://r.mobirisesite.com/214496/assets/images/motordeponteh.png?v=1O3bIt" alt="Mobirise Website Builder" title="" data-slide-to="8" data-bs-slide-to="8">
+                                        <img src="componentes/motordeponteh.png" alt="Motor de ponte H" title="" data-slide-to="8" data-bs-slide-to="8">
                                     </div>
                                 </div>
                                 <div class="item-content">
@@ -405,7 +635,7 @@
                             <div class="slide-content">
                                 <div class="item-img">
                                     <div class="item-wrapper">
-                                        <img src="https://r.mobirisesite.com/214496/assets/images/placadeensaio.png?v=1O3bIt" alt="Mobirise Website Builder" title="" data-slide-to="9" data-bs-slide-to="9">
+                                        <img src="componentes/placadeensaio.png" alt="Placa de ensaio pequena" title="" data-slide-to="9" data-bs-slide-to="9">
                                     </div>
                                 </div>
                                 <div class="item-content">
@@ -420,7 +650,7 @@
                             <div class="slide-content">
                                 <div class="item-img">
                                     <div class="item-wrapper">
-                                        <img src="https://r.mobirisesite.com/214496/assets/images/resistor.png?v=1O3bIt" alt="Mobirise Website Builder" title="" data-slide-to="10" data-bs-slide-to="10">
+                                        <img src="componentes/resistor.png" alt="Resistor" title="" data-slide-to="10" data-bs-slide-to="10">
                                     </div>
                                 </div>
                                 <div class="item-content">
@@ -444,7 +674,7 @@
             </div>
         </div>
     </section>
-
+    <!--Video-->
     <section data-bs-version="5.1" class="video5 cid-t9gWCm26R3" id="video5-3">
 
 
@@ -456,8 +686,19 @@
                 </h4>
             </div>
             <div class="row align-items-center">
-                <div class="col-12 col-lg-5 video-block">
-                    <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/Y3WqLMu-wf8?rel=0&amp;amp;mute=1&amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+                <div class="col-12 col-lg-5 video-block video1">
+
+                    <div class="video-wrapper"> <video controls poster="">
+                        <source src="video.mp4" type="video/mp4">
+                        <source src="video.webm" type="video/webm">
+                        <source src="video.ogv" type="video/ogg">
+                        <object>
+                          <embed src="video.mp4" type="application/x-shockwave-flash"
+                          allowfullscreen="false" allowscriptaccess="always">  		
+                        </object>
+                        Formato não suportado  
+                      </video></iframe>
+                    </div>
 
                 </div>
                 <div class="col-12 col-lg">
@@ -472,248 +713,240 @@
             </div>
         </div>
     </section>
+    <!--Participantes-->
+    <div>
+        <section data-bs-version="5.1" class="team2 cid-t9LfzVba4b" xmlns="http://www.w3.org/1999/html" id="team2-1c">
 
 
-    <section data-bs-version="5.1" class="team2 cid-t9he0IZBSU" xmlns="http://www.w3.org/1999/html" id="team2-g">
 
 
-        <div id="participantes" class="mbr-section-head">
-            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                <strong>Participantes</strong></h4>
-            <br><br>
-        </div>
+            <div class="container">
 
-
-        <div class="container">
-            <div class="card">
-                <div class="card-wrapper">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-3">
-                            <div class="image-wrapper">
-                                <img src="https://r.mobirisesite.com/214496/assets/images/andre.jpg?v=1O3bIt" alt="Mobirise Website Builder">
+                <div id="participantes" class="mbr-section-head">
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Participantes</strong></h4>
+                    <br><br>
+                </div>
+                <div class="card">
+                    <div class="card-wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-4">
+                                <div class="image-wrapper">
+                                    <img src="participantes/andre.jpg" alt="André">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md">
-                            <div class="card-box">
-                                <h5 class="card-title mbr-fonts-style m-0 mb-3 display-5">
-                                    <strong>André</strong></h5>
+                            <div class="col-12 col-md">
+                                <div class="card-box">
+                                    <h5 class="card-title mbr-fonts-style m-0 mb-3 display-5">
+                                        <strong>André</strong></h5>
 
-                                <p class="mbr-text mbr-fonts-style display-7">
-                                    Criou as perguntas que foram passadas ao entrevistado, gravou e editou o audio da entrevista com o Audacity e ajudou na imaginação do site.
-                                </p>
-                                <div class="social-row display-7">
-                                    <div class="soc-item">
-                                        <a href="https://github.com/" target="_blank">
-                                            <span class="mbr-iconfont mobi-mbri-github mobi-mbri"></span>
-                                        </a>
+                                    <p class="mbr-text mbr-fonts-style display-7">Criou as perguntas que foram passadas ao entrevistado, gravou e editou o audio da entrevista com o Audacity e ajudou na imaginação do site.&nbsp;<br></p>
+                                    <div class="social-row display-7">
+                                        <div class="soc-item">
+                                            <a href="https://github.com/" target="_blank">
+                                                <span class="mbr-iconfont mobi-mbri-github mobi-mbri"></span>
+                                            </a>
+                                        </div>
+                                        <div class="soc-item">
+                                            <a href="https://www.linkedin.com/in/andr%C3%A9-dos-santos-lewin-89404223b/" target="_blank">
+                                                <span class="mbr-iconfont socicon-linkedin socicon"></span>
+                                            </a>
+                                        </div>
+
+
+
                                     </div>
-                                    <div class="soc-item">
-                                        <a href="https://www.linkedin.com/in/andr%C3%A9-dos-santos-lewin-89404223b/" target="_blank">
-                                            <span class="mbr-iconfont socicon-linkedin socicon"></span>
-                                        </a>
-                                    </div>
-
-
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
+        </section>
 
-
-        </div>
-    </section>
-
-    <section data-bs-version="5.1" class="team2 cid-t9hmfAAZ1w" xmlns="http://www.w3.org/1999/html" id="team2-m">
+        <section data-bs-version="5.1" class="team2 cid-t9LfAFUdJw" xmlns="http://www.w3.org/1999/html" id="team2-1d">
 
 
 
 
-        <div class="container">
-            <div class="card">
-                <div class="card-wrapper">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-3">
-                            <div class="image-wrapper">
-                                <img src="https://r.mobirisesite.com/214496/assets/images/guilherme.jpg?v=1O3bIt" alt="Mobirise Website Builder">
+            <div class="container">
+                <div class="card">
+                    <div class="card-wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-4">
+                                <div class="image-wrapper">
+                                    <img src="participantes/guilherme.jpg" alt="Guilherme">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md">
-                            <div class="card-box">
-                                <h5 class="card-title mbr-fonts-style m-0 mb-3 display-5">
-                                    <strong>Guilherme</strong></h5>
+                            <div class="col-12 col-md">
+                                <div class="card-box">
+                                    <h5 class="card-title mbr-fonts-style m-0 mb-3 display-5">
+                                        <strong>Guilherme</strong></h5>
 
-                                <p class="mbr-text mbr-fonts-style display-7">
-                                    Responsável pelo nome da equipe, pela gravação do video, criou o design do site e a logo usando o Adobe Photoshop.
-                                </p>
-                                <div class="social-row display-7">
-                                    <div class="soc-item">
-                                        <a href="https://github.com/" target="_blank">
-                                            <span class="mbr-iconfont mobi-mbri-github mobi-mbri"></span>
-                                        </a>
+                                    <p class="mbr-text mbr-fonts-style display-7">Responsável pelo nome da equipe, pela gravação do video, criou o design do site e a logo usando o Adobe Photoshop.&nbsp;<br></p>
+                                    <div class="social-row display-7">
+                                        <div class="soc-item">
+                                            <a href="https://github.com/" target="_blank">
+                                                <span class="mbr-iconfont mobi-mbri-github mobi-mbri"></span>
+                                            </a>
+                                        </div>
+                                        <div class="soc-item">
+                                            <a href="https://br.linkedin.com/" target="_blank">
+                                                <span class="mbr-iconfont socicon-linkedin socicon"></span>
+                                            </a>
+                                        </div>
+
+
+
                                     </div>
-                                    <div class="soc-item">
-                                        <a href="https://br.linkedin.com/" target="_blank">
-                                            <span class="mbr-iconfont socicon-linkedin socicon"></span>
-                                        </a>
-                                    </div>
-
-
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
+        </section>
 
-
-        </div>
-    </section>
-
-    <section data-bs-version="5.1" class="team2 cid-t9hlZtf8uR" xmlns="http://www.w3.org/1999/html" id="team2-k">
+        <section data-bs-version="5.1" class="team2 cid-t9LhKTS9MR" xmlns="http://www.w3.org/1999/html" id="team2-1f">
 
 
 
 
-        <div class="container">
-            <div class="card">
-                <div class="card-wrapper">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-3">
-                            <div class="image-wrapper">
-                                <img src="https://r.mobirisesite.com/214496/assets/images/joao.jpg?v=1O3bIt" alt="Mobirise Website Builder">
+            <div class="container">
+                <div class="card">
+                    <div class="card-wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-4">
+                                <div class="image-wrapper">
+                                    <img src="participantes/joao.jpg" alt="João">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md">
-                            <div class="card-box">
-                                <h5 class="card-title mbr-fonts-style m-0 mb-3 display-5">
-                                    <strong>João</strong></h5>
+                            <div class="col-12 col-md">
+                                <div class="card-box">
+                                    <h5 class="card-title mbr-fonts-style m-0 mb-3 display-5">
+                                        <strong>João Vitor</strong></h5>
 
-                                <p class="mbr-text mbr-fonts-style display-7">
-                                    Responsável pelo nome da equipe, pela gravação e edição do video pelo aplicativo da Filmora, ajudou na imaginação e criação do site.
-                                </p>
-                                <div class="social-row display-7">
-                                    <div class="soc-item">
-                                        <a href="https://github.com/" target="_blank">
-                                            <span class="mbr-iconfont mobi-mbri-github mobi-mbri"></span>
-                                        </a>
+                                    <p class="mbr-text mbr-fonts-style display-7">Responsável pelo nome da equipe, pela gravação e edição do video pelo aplicativo da Filmora, ajudou na imaginação e criação do site.&nbsp;<br></p>
+                                    <div class="social-row display-7">
+                                        <div class="soc-item">
+                                            <a href="https://github.com/" target="_blank">
+                                                <span class="mbr-iconfont mobi-mbri-github mobi-mbri"></span>
+                                            </a>
+                                        </div>
+                                        <div class="soc-item">
+                                            <a href="https://br.linkedin.com/" target="_blank">
+                                                <span class="mbr-iconfont socicon-linkedin socicon"></span>
+                                            </a>
+                                        </div>
+
+
+
                                     </div>
-                                    <div class="soc-item">
-                                        <a href="https://br.linkedin.com/" target="_blank">
-                                            <span class="mbr-iconfont socicon-linkedin socicon"></span>
-                                        </a>
-                                    </div>
-
-
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
+        </section>
 
-
-        </div>
-    </section>
-
-    <section data-bs-version="5.1" class="team2 cid-t9he1ExCEa" xmlns="http://www.w3.org/1999/html" id="team2-h">
+        <section data-bs-version="5.1" class="team2 cid-t9LhLrpFzY" xmlns="http://www.w3.org/1999/html" id="team2-1g">
 
 
 
 
-        <div class="container">
-            <div class="card">
-                <div class="card-wrapper">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-3">
-                            <div class="image-wrapper">
-                                <img src="https://r.mobirisesite.com/214496/assets/images/nahuel.jpg?v=1O3bIt" alt="Mobirise Website Builder">
+            <div class="container">
+                <div class="card">
+                    <div class="card-wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-4">
+                                <div class="image-wrapper">
+                                    <img src="participantes/nahuel.jpg" alt="Nahuel">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md">
-                            <div class="card-box">
-                                <h5 class="card-title mbr-fonts-style m-0 mb-3 display-5">
-                                    <strong>Nahuel</strong></h5>
+                            <div class="col-12 col-md">
+                                <div class="card-box">
+                                    <h5 class="card-title mbr-fonts-style m-0 mb-3 display-5">
+                                        <strong>Nahuel</strong></h5>
 
-                                <p class="mbr-text mbr-fonts-style display-7">
-                                    Responsável pela responsividade do site, pelas perguntas feitas ao entrevistado e roteiro do hotsite.
-                                </p>
-                                <div class="social-row display-7">
-                                    <div class="soc-item">
-                                        <a href="https://github.com/NahuelAyala00" target="_blank">
-                                            <span class="mbr-iconfont mobi-mbri-github mobi-mbri"></span>
-                                        </a>
+                                    <p class="mbr-text mbr-fonts-style display-7">Responsável pela responsividade do site, pelas perguntas feitas ao entrevistado e roteiro do hotsite.&nbsp;<br></p>
+                                    <div class="social-row display-7">
+                                        <div class="soc-item">
+                                            <a href="https://github.com/NahuelAyala00" target="_blank">
+                                                <span class="mbr-iconfont mobi-mbri-github mobi-mbri"></span>
+                                            </a>
+                                        </div>
+                                        <div class="soc-item">
+                                            <a href="https://www.linkedin.com/in/nahuelayala/" target="_blank">
+                                                <span class="mbr-iconfont socicon-linkedin socicon"></span>
+                                            </a>
+                                        </div>
+
+
+
                                     </div>
-                                    <div class="soc-item">
-                                        <a href="https://www.linkedin.com/in/nahuelayala/" target="_blank">
-                                            <span class="mbr-iconfont socicon-linkedin socicon"></span>
-                                        </a>
-                                    </div>
-
-
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
+        </section>
 
-
-        </div>
-    </section>
-
-    <section data-bs-version="5.1" class="team2 cid-t9hmdnjA0b" xmlns="http://www.w3.org/1999/html" id="team2-l">
+        <section data-bs-version="5.1" class="team2 cid-t9LhM7KZxn" xmlns="http://www.w3.org/1999/html" id="team2-1h">
 
 
 
 
-        <div class="container">
-            <div class="card">
-                <div class="card-wrapper">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-3">
-                            <div class="image-wrapper">
-                                <img src="https://r.mobirisesite.com/214496/assets/images/nicolly.jpg?v=1O3bIt" alt="Mobirise Website Builder">
+            <div class="container">
+                <div class="card">
+                    <div class="card-wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-4">
+                                <div class="image-wrapper">
+                                    <img src="participantes/nicolly.jpg" alt="Nicolly">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md">
-                            <div class="card-box">
-                                <h5 class="card-title mbr-fonts-style m-0 mb-3 display-5">
-                                    <strong>Nicolly</strong></h5>
+                            <div class="col-12 col-md">
+                                <div class="card-box">
+                                    <h5 class="card-title mbr-fonts-style m-0 mb-3 display-5">
+                                        <strong>Nicolly</strong></h5>
 
-                                <p class="mbr-text mbr-fonts-style display-7">
-                                    Com as ideias do grupo para formação do site programou todo o site usando bootstrap no Visual Studio Code e teve a ideia inicial para montagem do video.
-                                </p>
-                                <div class="social-row display-7">
-                                    <div class="soc-item">
-                                        <a href="https://github.com/nikikikikiki" target="_blank">
-                                            <span class="mbr-iconfont mobi-mbri-github mobi-mbri"></span>
-                                        </a>
+                                    <p class="mbr-text mbr-fonts-style display-7">Com as ideias do grupo para formação do site programou todo o site usando bootstrap no Visual Studio Code e teve a ideia inicial para montagem do video.&nbsp;<br></p>
+                                    <div class="social-row display-7">
+                                        <div class="soc-item">
+                                            <a href="https://github.com/nikikikikiki" target="_blank">
+                                                <span class="mbr-iconfont mobi-mbri-github mobi-mbri"></span>
+                                            </a>
+                                        </div>
+                                        <div class="soc-item">
+                                            <a href="https://br.linkedin.com/" target="_blank">
+                                                <span class="mbr-iconfont socicon-linkedin socicon"></span>
+                                            </a>
+                                        </div>
+
+
+
                                     </div>
-                                    <div class="soc-item">
-                                        <a href="https://br.linkedin.com/" target="_blank">
-                                            <span class="mbr-iconfont socicon-linkedin socicon"></span>
-                                        </a>
-                                    </div>
-
-
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
-
-
-        </div>
-    </section>
-
+        </section>
+    </div>
+    <!--Footer-->
     <section data-bs-version="5.1" class="footer3 cid-t9hafbrYiu" once="footers" id="footer3-a">
 
 
@@ -725,11 +958,14 @@
                 <div class="row row-links">
                     <ul class="foot-menu">
 
-                        <li class="nav-item"><a class="nav-link link text-white display-4" href="#tinkercad">Tinkercad<br></a></li>
-                        <li class="nav-item"><a class="nav-link link text-white display-4" href="#componentes">Componentes</a></li>
-                        <li class="nav-item"><a class="nav-link link text-white display-4" href="#video">Video</a></li>
-                        <li class="nav-item"><a class="nav-link link text-white display-4" href="#participantes">Participantes</a></li>
 
+
+
+
+                        <li href="#tinkercad" class="foot-menu-item mbr-fonts-style display-7"><a href="#tinkercad" class="text-white">Tinkercad</a></li>
+                        <li class="foot-menu-item mbr-fonts-style display-7"><a href="#componentes" class="text-white">Componentes</a></li>
+                        <li class="foot-menu-item mbr-fonts-style display-7"><a href="#video" class="text-white">Video</a></li>
+                        <li class="foot-menu-item mbr-fonts-style display-7"><a href="#participantes" class="text-white">Participantes</a></li>
                     </ul>
                 </div>
 
