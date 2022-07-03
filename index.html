@@ -89,6 +89,10 @@
             float: right;
         }
         
+        .modal-body {
+            float: left;
+        }
+        
         @media (max-width: 767px) {
             .modalcell {
                 display: none;
@@ -279,27 +283,27 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p>// C++ code<br>
-                                    <br> //
-                                    <br> void setup()
-                                    <br> {
-                                    <br> pinMode(13, OUTPUT);
-                                    <br> pinMode(11, OUTPUT);
-                                    <br> pinMode(12, OUTPUT);
-                                    <br> }
-                                    <br>
-                                    <br> void loop()
-                                    <br> {
-                                    <br> digitalWrite(13, HIGH);
-                                    <br> delay(2000); // Wait for 2000 millisecond(s)
-                                    <br> digitalWrite(13, LOW);
-                                    <br> digitalWrite(11, HIGH);
-                                    <br> delay(2000); // Wait for 2000 millisecond(s)
-                                    <br> digitalWrite(11, LOW);
-                                    <br> digitalWrite(12, HIGH);
-                                    <br> delay(2000); // Wait for 2000 millisecond(s)
-                                    <br> digitalWrite(12, LOW);
-                                    <br>} </p>
+                                // C++ code<br>
+                                <br> //
+                                <br> void setup()
+                                <br> {
+                                <br> pinMode(13, OUTPUT);
+                                <br> pinMode(11, OUTPUT);
+                                <br> pinMode(12, OUTPUT);
+                                <br> }
+                                <br>
+                                <br> void loop()
+                                <br> {
+                                <br> digitalWrite(13, HIGH);
+                                <br> delay(2000); // Wait for 2000 millisecond(s)
+                                <br> digitalWrite(13, LOW);
+                                <br> digitalWrite(11, HIGH);
+                                <br> delay(2000); // Wait for 2000 millisecond(s)
+                                <br> digitalWrite(11, LOW);
+                                <br> digitalWrite(12, HIGH);
+                                <br> delay(2000); // Wait for 2000 millisecond(s)
+                                <br> digitalWrite(12, LOW);
+                                <br>}
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
@@ -323,29 +327,29 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p>unsigned int sensor;<br>
-                                    <br> int LED = 9;
-                                    <br> void setup()
-                                    <br> {
-                                    <br> Serial.begin(9600);
-                                    <br> pinMode(LED, OUTPUT);
-                                    <br>
-                                    <br> }
-                                    <br>
-                                    <br> void loop()
-                                    <br> {
-                                    <br> sensor = analogRead(A5);
-                                    <br> Serial.println(sensor);
-                                    <br>
-                                    <br> if (sensor > 509){
-                                    <br> digitalWrite(LED, HIGH);
-                                    <br> }
-                                    <br> else {
-                                    <br> digitalWrite(LED, LOW);
-                                    <br> }
-                                    <br>
-                                    <br> }
-                                </p>
+                                unsigned int sensor;<br>
+                                <br> int LED = 9;
+                                <br> void setup()
+                                <br> {
+                                <br> Serial.begin(9600);
+                                <br> pinMode(LED, OUTPUT);
+                                <br>
+                                <br> }
+                                <br>
+                                <br> void loop()
+                                <br> {
+                                <br> sensor = analogRead(A5);
+                                <br> Serial.println(sensor);
+                                <br>
+                                <br> if (sensor > 509){
+                                <br> digitalWrite(LED, HIGH);
+                                <br> }
+                                <br> else {
+                                <br> digitalWrite(LED, LOW);
+                                <br> }
+                                <br>
+                                <br> }
+
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
@@ -369,40 +373,30 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p>int velMotor = 3;<br>
-                                    <br>int motorFrente = 2;
-                                    <br> int motorTras = 4;
-                                    <br> int vel = 255;
-                                    <br> void setup()
-                                    <br> {
-                                    <br> pinMode(3, OUTPUT);
-                                    <br> pinMode(2, OUTPUT);
-                                    <br> pinMode(4, OUTPUT);
-                                    <br> analogWrite(3, 0); digitalWrite(2, LOW); digitalWrite(4, LOW);
-                                    <br> }
-                                    <br> void loop()
-                                    <br> {
-                                    <br> //Sentido anti-horário
-                                    <br> analogWrite(3, vel);
-                                    <br> digitalWrite(2, HIGH);
-                                    <br> digitalWrite(4, LOW);
-                                    <br> delay(5000);
-                                    <br> //Desligando motor para inversão de sentido
-                                    <br> analogWrite(3, 0);
-                                    <br> digitalWrite(2, LOW);
-                                    <br> digitalWrite(4, LOW);
-                                    <br> delay(100);
-                                    <br> //Sentido horário
-                                    <br> analogWrite(3, vel);
-                                    <br> digitalWrite(4, HIGH);
-                                    <br> digitalWrite(2, LOW);
-                                    <br>delay(5000);
-                                    <br> //Desligando motor para inversão de sentido
-                                    <br> analogWrite(3, 0);
-                                    <br> digitalWrite(2, LOW);
-                                    <br>digitalWrite(4, LOW);
-                                    <br> delay(100);
-                                    <br> } </p>
+                                int velMotor = 3; int motorFrente = 2; int motorTras = 4;
+                                <br>int vel = 255;
+                                <br> void setup() {
+                                <br> pinMode(3, OUTPUT);
+                                <br> pinMode(2, OUTPUT);
+                                <br> pinMode(4, OUTPUT);
+                                <br> analogWrite(3, 0); digitalWrite(2, LOW); digitalWrite(4, LOW); }
+                                <br> void loop() {
+                                <br> analogWrite(3, vel);
+                                <br> digitalWrite(2, HIGH);
+                                <br> digitalWrite(4, LOW);
+                                <br> delay(5000);
+                                <br> analogWrite(3, 0);
+                                <br> digitalWrite(2, LOW);
+                                <br> digitalWrite(4, LOW);
+                                <br> delay(100);
+                                <br> analogWrite(3, vel);
+                                <br> digitalWrite(4, HIGH);
+                                <br> digitalWrite(2, LOW);
+                                <br>delay(5000);
+                                <br> analogWrite(3, 0);
+                                <br> digitalWrite(2, LOW);
+                                <br>digitalWrite(4, LOW);
+                                <br> delay(100); }
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
@@ -426,23 +420,23 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p>ISR(PCINT0_vect){<br>
-                                    <br> PORTD ^= 0b00110000;
-                                    <br> }
-                                    <br> ISR(PCINT2_vect){
-                                    <br> PORTD ^= 0b00001100;
-                                    <br> }
-                                    <br>int main(void)
-                                    <br>{
-                                    <br> DDRD = 0b00111100;
-                                    <br>PORTD = 0b00011000;
-                                    <br>PCICR = 0b00000101;
-                                    <br>PCMSK2 = 0b1000000;
-                                    <br>PCMSK0 = 0b0000001;
-                                    <br>sei();
-                                    <br> while(1){
-                                    <br> }
-                                    <br> } </p>
+                                ISR(PCINT0_vect){<br>
+                                <br> PORTD ^= 0b00110000;
+                                <br> }
+                                <br> ISR(PCINT2_vect){
+                                <br> PORTD ^= 0b00001100;
+                                <br> }
+                                <br>int main(void)
+                                <br>{
+                                <br> DDRD = 0b00111100;
+                                <br>PORTD = 0b00011000;
+                                <br>PCICR = 0b00000101;
+                                <br>PCMSK2 = 0b1000000;
+                                <br>PCMSK0 = 0b0000001;
+                                <br>sei();
+                                <br> while(1){
+                                <br> }
+                                <br> }
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
